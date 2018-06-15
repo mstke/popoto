@@ -9,4 +9,5 @@ export {default as rest} from "./src/rest/rest";
 export {default as result} from "./src/result/result";
 export {default as taxonomy} from "./src/taxonomy/taxonomy";
 export {default as tools} from "./src/tools/tools";
+export {default as dataModel} from "./src/datamodel/dataModel";
 export {start, update, updateGraph} from "./src/popoto";
