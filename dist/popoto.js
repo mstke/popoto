@@ -750,7 +750,7 @@ result.parseGraphResultData = function (data) {
 
     var nodes = {}, edges = {};
 
-    data.results[1].data.forEach(function (row) {
+    data.results[0].data.forEach(function (row) {
         row.graph.nodes.forEach(function (n) {
             if (!nodes.hasOwnProperty(n.id)) {
                 nodes[n.id] = n;
